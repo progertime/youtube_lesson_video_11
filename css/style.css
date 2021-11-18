@@ -1,0 +1,32 @@
+.form__field-wrap{
+	position: relative;
+}
+
+.form__field_error .form-control,
+.form__field_error .form-select,
+.form__field_error .form-check-input{
+	border: 1px solid red;
+}
+.form__message-item{
+	display: inline-flex;
+}
+.form__message .form__message-item{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form__message-item_error{
+	background-color: red;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.form__message-item_success{
+	background-color: #0ff5c0;
+	padding: 5px 10px;
+	font-size: 12px;
+	border-radius: 5px;
+	display: inline-flex;
+	margin-bottom: 20px;
+}
